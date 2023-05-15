@@ -1,0 +1,9 @@
+header h1{
+    text-align: center;
+    color: goldenrod;
+}
+
+.logo{
+    height:150px;
+    margin-top: 25px;
+}

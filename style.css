@@ -1,0 +1,147 @@
+header{
+    display: grid;
+    grid-template-columns: repeat(13, auto);
+    height: 70px;
+    width:100%;
+    background-color: rgb(54, 74, 108);
+}
+
+header div{
+    height: 60px;
+}
+
+.logo{
+    border-radius: 50%;
+    height:70px;
+    width:70px;
+}
+
+.logo-title{
+    text-decoration: none;
+    font-size: 30px;
+    color: black;
+    font-weight: bolder;
+}
+
+.icon{
+    border-radius: 50%;
+    height:70px;
+    width:70px;
+}
+
+.search-icon{
+    border-radius: 50%;
+    height:20px;
+    width:20px;   
+}
+
+.search{
+    background-color: rgb(54, 74, 108);
+}
+
+.form-control{
+    grid-column-start: 5;
+    grid-column-end: 9;
+}
+
+.right-icon{
+    border-radius: 50%;
+    height:60px;
+    width:60px;
+    margin-top: 5px;
+}
+
+.photo{
+    height:200px;
+    width:100%;
+    margin-top: 20px;
+}
+
+.categories{
+    text-align: center;
+    color: rgb(54, 74, 108);
+}
+
+.offers{
+    display:grid;
+    grid-template-columns: repeat(5, auto);
+    grid-row-gap:5px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.offeritem{
+    background-color: rgb(140, 239, 252);
+    height:270px;
+    width:270px;
+    border-radius: 20px;
+    color:white;
+}
+
+.offersimage{
+    height:270px;
+    width:270px;
+    border-radius: 20px;
+    opacity: 0.9;
+}
+
+.offertext{
+    text-align: center;
+    color: white;
+    margin-top: -55%;
+    font-size: 25px;
+    opacity: 0.6;
+    background-color: rgb(54, 74, 108);
+}
+
+.launching{
+    display:grid;
+    grid-template-columns: repeat(3, auto);
+    grid-row-gap:15px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.launching-item{
+    background-color: rgb(140, 239, 252);
+    height:420px;
+    width:390px;
+    border-radius: 20px;
+    color:white;
+}
+
+.launchingimage{
+    height:420px;
+    width:390px;
+    border-radius: 20px;
+    opacity: 0.9;
+}
+
+.launchingtext{
+    text-align: center;
+    color: white;
+    margin-top: -55%;
+    font-size: 25px;
+    opacity: 0.6;
+    background-color: rgb(54, 74, 108);
+}
+
+.hr{
+    color: rgb(54, 74, 108);
+}
+
+.back-to-top{
+    text-decoration: none;
+    color:rgb(255, 255, 255);
+    font-weight: bolder;
+    background-color: rgb(54, 74, 108);
+    font-size: 20px;
+    border-radius: 4px;
+}
+
+footer{
+    text-align: center;
+    margin-top: 20px;
+    background-color: rgb(54, 74, 108);
+    color:white;
+}
